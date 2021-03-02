@@ -22,3 +22,43 @@
     color:  rgb(150, 140, 0);
 }
 /*Sampai sini*/
+
+/*Bagian nav*/
+#logo{
+    width: 138px;
+    height: 138px;
+}
+.search-box{
+    position: absolute;
+    transform: translate(0, -50%);
+    height: 20px;
+    border-radius: 40px;
+    padding: 10px;
+    background: rgb(156, 156, 156);
+    height: 40px;
+}
+.search-box:hover > .search-text{
+    width: 240px;
+    padding: 0 6px;
+}
+.search-btn{
+    color: black;
+    float: right;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+}
+.search-text{
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    transition: 0.4s;
+    width: 5px;
+}
+/**/
